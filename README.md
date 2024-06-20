@@ -70,7 +70,7 @@ The goal of this project is to provide a scalable and efficient method to find t
    ```
    You should see this:
 
-   ![Streamlit Application](<https://github.com/DrUkachi/nd0821-c3-starter-code/blob/main/screenshots/live-post.png>)
+   ![Streamlit Application](<https://github.com/DrUkachi/transaction-handling-API/blob/main/screenshot/Screenshot-Streamlit.png>)
 
 4. **You can also visit the local Swagger UI using the link:**
 [API documentation](http://localhost:8000/docs).

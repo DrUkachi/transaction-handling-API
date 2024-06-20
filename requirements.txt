@@ -7,3 +7,4 @@ spacy==3.7.5
 fuzzywuzzy==0.18.0
 scikit-learn==1.5.0
 python-Levenshtein
+streamlit
