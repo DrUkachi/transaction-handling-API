@@ -54,7 +54,7 @@ The goal of this project is to provide a scalable and efficient method to find t
 
    Ensure your transaction data is available in a suitable format (CSV).
 
-2. **Run Semantic Similarity Search:**
+2. **To start the Fast API application:**
 
    Run the `app.py` script to start the app
 
@@ -63,7 +63,7 @@ The goal of this project is to provide a scalable and efficient method to find t
    ```
 3. **Use the Streamlit app to access the API:**
 
-   Run the Streamlit app using the `main.py` script to start the app
+   Run the Streamlit app using the `main.py` script to interact with the API.
 
    ```bash
    streamlit run app.py
@@ -102,7 +102,7 @@ Contributions are welcome! Please fork the repository and create a pull request 
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Description of Solution 1
+# Description of Solution 1
 
 **Endpoint Definition**:
    - The endpoint `/match-users/` is defined as a POST method that expects a `transaction_id` as input.
@@ -142,7 +142,7 @@ This project is licensed under the [MIT License](LICENSE).
   
 - **Enhanced Name Extraction**: Develop more robust techniques to handle diverse formats of transaction descriptions, such as names without spaces or with punctuation.
 
-## Description of Solution 2:
+# Description of Solution 2:
 
 The provided solution extends the FastAPI application with a new endpoint `/similar-transactions/` that uses language model embeddings to find transactions with descriptions similar to a given input string. Here’s a breakdown:
 
@@ -199,7 +199,7 @@ The provided solution extends the FastAPI application with a new endpoint `/simi
 By addressing these limitations and considering improvements, the solution can be made more robust and suitable for a wider range of real-world applications where semantic similarity in transaction descriptions is crucial.
 
 
-## Task 3: From PoC to Production
+# Task 3: From PoC to Production
 
 Taking a proof of concept (PoC) to production involves several key steps and considerations to ensure reliability, scalability, and maintainability. Below are some of my suggestions and improvements that can be made to transition from a PoC to a production-ready state for the Transaction Handling application, built with FastAPI.
 
