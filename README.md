@@ -61,8 +61,18 @@ The goal of this project is to provide a scalable and efficient method to find t
    ```bash
    python app.py 
    ```
+3. **Use the Streamlit app to access the API:**
 
-3. **You can also visit the local Swagger UI using the link:**
+   Run the Streamlit app using the `main.py` script to start the app
+
+   ```bash
+   streamlit run app.py
+   ```
+   You should see this:
+
+   ![Streamlit Application](<https://github.com/DrUkachi/nd0821-c3-starter-code/blob/main/screenshots/live-post.png>)
+
+4. **You can also visit the local Swagger UI using the link:**
 [API documentation](http://localhost:8000/docs).
 
 ## Directory Structure
